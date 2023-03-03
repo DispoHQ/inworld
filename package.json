@@ -1,0 +1,22 @@
+{
+  "name": "inworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bin": {
+    "hello": "./dist/index.js"
+  },
+  "dependencies": {
+    "@inworld/nodejs-sdk": "^1.0.2",
+    "tsx": "^3.12.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
